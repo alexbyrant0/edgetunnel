@@ -48,7 +48,7 @@ let 动态UUID = userID;
 let link = [];
 let banHosts = [atob('c3BlZWQuY2xvdWRmbGFyZS5jb20=')];
 let SCV = 'true';
-let allowInsecure = '&allowInsecure=1';
+let allowInsecure = '&allowInsecure=0';
 export default {
     async fetch(request, env, ctx) {
         try {
